@@ -1,0 +1,145 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgba(165, 42, 42, 0.6);
+}
+
+.container {
+  width: 80%;
+  margin: 40px auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	box-shadow: 0 0 10px rgba(21, 19, 19, 0.5);
+}
+
+.content {
+  text-align: center;
+}
+
+.animate-title {
+  animation: animate-title 1s ease-in-out;
+}
+
+@keyframes animate-title {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.animate-text {
+  animation: animate-text 1.5s ease-in-out;
+}
+
+@keyframes animate-text {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.contact-info {
+  margin-bottom: 40px;
+}
+
+.animate-subtitle {
+  animation: animate-subtitle 2s ease-in-out;
+}
+
+@keyframes animate-subtitle {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-text {
+  animation: animate-text 1.5s ease-in-out;
+}
+
+@keyframes animate-text {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.contact-info {
+  margin-bottom: 40px;
+}
+
+.animate-subtitle {
+  animation: animate-subtitle 2s ease-in-out;
+}
+
+@keyframes animate-subtitle {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-label {
+  animation: animate-label 2.5s ease-in-out;
+}
+
+@keyframes animate-label {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-input {
+  animation: animate-input 3s ease-in-out;
+}
+
+@keyframes animate-input {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1
+  }
+}
+footer {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
